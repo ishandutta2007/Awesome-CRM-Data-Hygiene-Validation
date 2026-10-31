@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global data quality and CRM data hygiene tools market is estimated at **$3.3B to $3.9B in 2026** (scaling from ~$2.6B in 2024 at a ~18% CAGR), driven by enterprise demand for clean, deduplicated data for LLMs and autonomous sales agents. The sector exhibits a hybrid market structure: **moderately concentrated at the enterprise MDM tier** (dominated by entrenched enterprise providers like Experian, Informatica, and HubSpot), but **highly fragmented at the CRM point-solution and contact hygiene layer**, where dozens of niche SaaS tools, validation APIs, and AppExchange plugins compete without a winner-take-all monopoly.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Insycle](https://www.insycle.com/)**
-
-  **CRM data management platform** with deduplication, normalization, and enrichment across HubSpot, Salesforce, and other CRMs. **Pricing**: **14-day free trial** (no credit card, up to **500 records**); **Starter/Growth/Professional** plans priced by record count slider (up to 500,000 records) with **20% annual discount**; **unlimited users on every plan** . **Free tier**: Trial only—500 records for 14 days. **Best for**: teams wanting record-based pricing with unlimited users—**trade-off**: no permanent free tier; Enterprise required above 500K records.
-
-
-
-- **[DemandTools](https://www.demandtools.com/)** (Validity)
-
-  **Salesforce data quality management** with deduplication, mass delete, and field cleaning. **Pricing**: **Elements starting at $2.67/month** flat rate; **$11.00** for higher tier . **Free tier**: **No free trial**, no free version per Capterra . **Best for**: Salesforce-native teams wanting established deduplication—**trade-off**: no trial; Elements tier is limited.
-
-
-
-- **[RingLead](https://www.ringlead.com/)**
-
-  **Data orchestration and deduplication** for Salesforce and marketing automation. **Note**: Search results surface **RingLeadAI**, an AI outbound sales platform with pricing from **$69/month** (Suite Starter, 200 voice mins, 20,000 emails) to **$599/month** (Suite Scale) —this appears to be a rebranded or separate product from the traditional RingLead data orchestration tool. **Pricing**: Traditional RingLead data quality pricing is **quote-only**; RingLeadAI publishes tiered pricing. **Free tier**: Not specified for data quality; RingLeadAI has no free tier listed. **Best for**: enterprises wanting real-time deduplication at point of entry—**trade-off**: sales-led pricing for data quality; product identity unclear post-rebrand.
-
-
-
-- **[ZoomInfo Enrich](https://www.zoominfo.com/)**
-
-  **CRM data cleansing and enrichment** within ZoomInfo's platform. **Pricing**: **SalesOS Professional $15,000+/year** (5,000 bulk credits); **Advanced $25,000+/year** (10,000 credits, intent data); **Elite $40,000+/year** . **Free tier**: None. **Best for**: ZoomInfo customers wanting to clean and enrich CRM records with verified data—**trade-off**: enterprise pricing; annual commitment required.
-
-
-
-- **[Clearbit (Breeze Intelligence)](https://www.hubspot.com/)**
-
-  **CRM enrichment** now fully integrated into HubSpot. **Critical change**: **Clearbit no longer has standalone pricing**—it is now **Breeze Intelligence inside HubSpot**. Basic enrichment is **free with all paid HubSpot Starter+ seats** as of Fall 2025. Advanced features consume HubSpot Credits: **3,000/month on Professional, 5,000/month on Enterprise**, overages **$10/1,000 credits**. **No phone reveals**—phone data was dropped post-acquisition . **Free tier**: Basic enrichment free with HubSpot paid seats. **Best for**: HubSpot Professional/Enterprise customers wanting enrichment without a separate vendor—**trade-off**: **HubSpot-only lock-in**; no standalone API; no phone data.
-
-
-
-- **[Openprise](https://www.openprisetech.com/)**
-
-  **Data orchestration and enrichment** platform for RevOps. **Pricing**: **Professional starts at $35,000 annually**; **Enterprise quote-only**. **No free tier, no self-serve sign-up**; annual billing only; unlimited user seats; metered on records per bot run and API calls per day . **Free tier**: **None**—confirmed no free tier published . **Best for**: mid-to-large enterprises with complex data stacks—**trade-off**: $35K minimum; no self-serve evaluation.
-
-
-
-- **[Syncari](https://syncari.com/)**
-
-  **Agentic master data management** platform for multi-system data synchronization. **Pricing**: **Quote-only**—current official pricing publishes one plan with no public monetary amount; sales-assisted. **Free trial/test drive** available but duration not stated . **Free tier**: Trial only (duration undisclosed). **Best for**: enterprises needing governed MDM across SAP and other systems—**trade-off**: no transparent pricing.
-
-
-
-- **[Experian Data Quality](https://www.experian.com/)**
-
-  **Enterprise data quality** with Aperture Data Studio, Pandora profiling, and address/email/phone validation APIs. **Pricing**: **Quote-only**; platform fee covers compute and base named users; growth triggers incremental purchases. **Aperture/Pandora discounts**: commitment duration (3-year vs 1-year yields 12–18 points), growth commitments, and API bundling. **Address validation is the crown jewel**—Experian's global coverage is best-in-class in UK, Australia, parts of EMEA. **In North America, Smarty and Melissa provide comparable coverage at 30–50% lower price points** . **Free tier**: None. **Best for**: enterprises needing global address validation and MDM workflows—**trade-off**: complex licensing; US address validation is overpriced vs. competitors.
-
-
-
-- **[Melissa Clean](https://www.melissa.com/)**
-
-  **Data cleansing and matching** for CRM, lists, and databases. **Pricing**: **Clean Suite for CRM uses a credit model**; **up to 1,000 complimentary credits** topped off monthly. Credits also work across Melissa Lookups, Listware, and Mailers Online. **Credit balance resets to 0 after one year of inactivity** . **Free tier**: **Yes—up to 1,000 credits/month** for CRM cleaning. **Best for**: teams wanting free monthly cleaning credits with a mature address/email/phone validation engine—**trade-off**: credits for larger volumes require purchase; Dynamics setup requires contact.
-
-
-
-- **[HubSpot Data Quality Tools](https://www.hubspot.com/)**
-
-  **Native and credit-based** data quality within HubSpot. **Data Hub pricing**: **Free $0**; **Starter $7/seat/month** (500 HubSpot Credits); **Professional $720/month** (5,000 credits, data quality overview, bulk duplicate management, programmable automation); **Enterprise $2,000/month** (10,000 credits, data warehouse integrations) . **Free tier**: Yes—basic Data Hub features. **Best for**: HubSpot users wanting native data quality without external vendors—**trade-off**: credit consumption for advanced features; bulk operations require Professional+.
-
-
+| Platform | Company Size (Revenue / Valuation) | Pricing | Free Tier / Trial Limits | Key Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Experian Data Quality](https://www.experian.com/)** | **~$7.52B Rev (FY25) / ~$43B–$46B Market Cap** | Aperture Data Studio license starts at **£12,500/year** (~$16,000/yr on G-Cloud); enterprise deployments **$72,000–$110,000+/year**; validation APIs consume 1 credit/lookup | **14-day free trial** with ~500–2,000 validation credits (address/email/phone); no permanent free tier | Enterprise data profiling, Aperture Data Studio, global address validation engine, phone/email validation APIs |
+| **[HubSpot Data Quality Tools](https://www.hubspot.com/)** | **~$3.13B Rev (FY25) / ~$21B Market Cap** | Data Hub: **Free ($0)**; Starter starts at **$7/seat/month** (500 credits); Professional at **$720/month** (5,000 credits); Enterprise at **$2,000/month** (10,000 credits) | **Free forever plan available** (Basic Data Hub features with limited deduplication view; Starter+ paid seats get complimentary basic Breeze Intelligence enrichment) | Native CRM data management, automatic deduplication formatting, AI-driven data cleansing, and Breeze Intelligence enrichment |
+| **[ZoomInfo Enrich](https://www.zoominfo.com/)** | **~$1.25B Rev (FY25) / ~$1.2B Market Cap** | SalesOS Professional starts at **$15,000/year** (5,000 credits); Advanced starts at **$25,000/year** (10,000 credits); Elite starts at **$40,000/year** | **Permanent Free Lite tier available**: 10–25 free credits/month (requires contact network contribution); temporary sales-assisted proof-of-concept trial lasts **3–5 days** with custom credit limits | B2B contact verification, firmographic enrichment, automated scheduled CRM cleaning, and account hierarchy standardization |
+| **[Clearbit (Breeze Intelligence)](https://www.hubspot.com/)** | **Part of HubSpot ($3.13B Rev / $21B Market Cap)** *(Acquired for ~$150M in 2023)* | Integrated into HubSpot Data Hub; basic enrichment included with paid seats ($7/seat/mo+); advanced credits cost **$10 per 1,000 credits** beyond plan allowance (Pro includes 3,000 credits/mo, Ent includes 5,000 credits/mo) | **Free tier available**: Basic contact and company enrichment included at no extra cost for all HubSpot paid Starter+ seats (no standalone free trial or public standalone API) | Real-time form shortening, buyer intent identification, company/contact enrichment, and native HubSpot synchronization |
+| **[RingLead](https://www.ringlead.com/)** | **Part of ZoomInfo ($1.25B Rev / $1.2B Market Cap)** *(Acquired for ~$116M–$118M; ~$10M–$15M ARR at acquisition)* | Enterprise packages start at **$20,000 to $25,000/year** (ZoomInfo OperationsOS); mid/full tiers average **$40,000–$85,000/year** | **No permanent free tier**; sales-qualified pilot / POC trial lasts **14 to 30 days** (limited to basic routing configuration; data enrichment excluded during trial) | Point-of-entry deduplication, end-to-end lead-to-account routing, record normalization, and Salesforce/Marketo orchestration |
+| **[Openprise](https://www.openprisetech.com/)** | **$100M Valuation** (Series B) / ~$4.3M–$25M Est. ARR | Professional starts at **$35,000/year** (annual contract); Enterprise custom quote based on bot runs and daily API calls | **No free tier and no self-serve trial** (sales-led custom evaluation demos only; specific API sub-components offer limited sandbox allotments) | RevOps automation, multi-source data cleansing, record unifying, deduplication bots, and lead routing |
+| **[Melissa Clean](https://www.melissa.com/)** | **~$70M–$75M Est. ARR** (Bootstrapped / Private) | Credit packs start at **$40 for 10,000 credits** ($4.00 per 1,000 credits); enterprise Clean Suite CRM licenses quoted by custom tier | **Free forever tier**: **1,000 complimentary credits/month** (reloads monthly across Clean Suite, Listware, and Mailers Online; balance expires after 12 months inactivity) | Global address standardization (CASS/DPV certified), phone verification, email deliverability checks, and fuzzy deduplication |
+| **[DemandTools](https://www.demandtools.com/) (Validity)** | **~$35M–$65M Est. ARR** (Parent Validity ~$300M total funding) | Elements Edition starts at **$2.67 to $3.00/user/month** (billed annually); Full V Release starts at **$10.00 to $11.00/user/month** (billed annually) | **14-day free trial** with full module access; includes 1,000 free email verification credits via DemandTools Verify (valid for 30 days; no permanent free tier) | Salesforce & Dynamics data management, mass deduplication, automated scenario matching, standardized reformatting, and lead conversion |
+| **[Syncari](https://syncari.com/)** | **~$60M Implied Valuation** ($26.8M funding) / ~$1.8M–$7.1M Est. ARR | Entry-level packages start at **$995/month** (billed annually; 'One Plan' model scaled by volume of unified records) | **14-day free trial** (Test Drive account capped at 10,000 unified records; full feature exploration including automated syncs; no permanent free tier) | Agentic Master Data Management (MDM), multidirectional multi-system sync, automated deduplication, and cross-system data unification |
+| **[Insycle](https://www.insycle.com/)** | **~$435K Est. ARR** (Bootstrapped / Private) | Starter starts at **$1.00 per 1,000 records/month** (~$100/mo base, billed annually, 1 module); Growth starts at **$1.50/1K records/mo** (2 modules); Professional starts at **$2.00/1K records/mo** (full suite); unlimited users | **14-day free trial** (valid for databases up to 500,000 records, no credit card required, includes health assessment; no permanent free tier) | Record-count based CRM deduplication, automated normalization rules, bulk data association, and custom deduplication formulas across HubSpot/Salesforce |
 
 ## Open-Source GitHub Projects
 
