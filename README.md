@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -70,52 +70,52 @@ The global data quality and CRM data hygiene tools market is estimated at **$3.3
 
 Sorted in descending order of GitHub community stars. Each project provides open infrastructure or foundational algorithms for self-hosted CRM data cleaning.
 
-### 1. [google/libphonenumber](https://github.com/google/libphonenumber) [![GitHub stars](https://img.shields.io/github/stars/google/libphonenumber?style=social&color=white)](https://github.com/google/libphonenumber/stargazers) 📞
+### 1. [google/libphonenumber](https://github.com/google/libphonenumber) [![GitHub_Stars](https://img.shields.io/github/stars/google/libphonenumber?style=social&color=white)](https://github.com/google/libphonenumber/stargazers) 📞
 - **Category:** Phone Parsing & International E.164 Formatting (Apache-2.0)
 - **Description:** Google's gold-standard library for parsing, formatting, and validating international phone numbers across 200+ countries. Essential in CRM pipelines to standardize inconsistent lead entries into globally routable E.164 format.
 - **Best for:** Eliminating malformed phone numbers before outbound calling or SMS sync.
 
-### 2. [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers) 🛡️
+### 2. [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) [![GitHub_Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers) 🛡️
 - **Category:** Data Validation & Pipeline Profiling (Apache-2.0)
 - **Description:** The industry-leading open-source framework for data assertions, continuous pipeline validation, and automated documentation. Allows data teams to define strict schemas (e.g., non-null contact fields, valid stage transitions, uniqueness constraints) on CRM tables.
 - **Best for:** Automating CI/CD checks and warehouse data quality gates on Salesforce and HubSpot data syncs.
 
-### 3. [openvenues/libpostal](https://github.com/openvenues/libpostal) [![GitHub stars](https://img.shields.io/github/stars/openvenues/libpostal?style=social&color=white)](https://github.com/openvenues/libpostal/stargazers) 📍
+### 3. [openvenues/libpostal](https://github.com/openvenues/libpostal) [![GitHub_Stars](https://img.shields.io/github/stars/openvenues/libpostal?style=social&color=white)](https://github.com/openvenues/libpostal/stargazers) 📍
 - **Category:** International Street Address Parsing & Normalization (MIT)
 - **Description:** C/Python library powered by statistical NLP trained on OpenStreetMap data worldwide. Parses unstructured street address strings into structured components (house number, road, city, postal code) across every country.
 - **Best for:** Normalizing global CRM address fields to enable accurate multi-field contact matching and deduplication.
 
-### 4. [dedupeio/dedupe](https://github.com/dedupeio/dedupe) [![GitHub stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers) 🔍
+### 4. [dedupeio/dedupe](https://github.com/dedupeio/dedupe) [![GitHub_Stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers) 🔍
 - **Category:** Machine Learning Deduplication & Record Linkage (Apache-2.0)
 - **Description:** Python library that uses active learning machine learning algorithms to perform deduplication and entity resolution on messy customer databases. Learns custom blocking rules and similarity thresholds from user feedback.
 - **Best for:** Identifying duplicate accounts and contacts with conflicting or partial fields without writing hundreds of brittle regex rules.
 
-### 5. [moj-analytical-services/splink](https://github.com/moj-analytical-services/splink) [![GitHub stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers) ⚡
+### 5. [moj-analytical-services/splink](https://github.com/moj-analytical-services/splink) [![GitHub_Stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers) ⚡
 - **Category:** Big Data Probabilistic Record Linkage (MIT)
 - **Description:** Fast, scalable probabilistic record linkage at scale based on the Fellegi-Sunter model. Native support for DuckDB, Apache Spark, and AWS Athena enables deduplicating multi-million row CRM datasets in seconds.
 - **Best for:** High-volume deduplication and enterprise master customer index linking directly inside data lakes and warehouses.
 
-### 6. [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) [![GitHub stars](https://img.shields.io/github/stars/JoshData/python-email-validator?style=social&color=white)](https://github.com/JoshData/python-email-validator/stargazers) 📧
+### 6. [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) [![GitHub_Stars](https://img.shields.io/github/stars/JoshData/python-email-validator?style=social&color=white)](https://github.com/JoshData/python-email-validator/stargazers) 📧
 - **Category:** Email Syntax, Deliverability & MX Verification (CC0)
 - **Description:** A robust Python library that validates email addresses against RFC 5322 syntax specifications, checks domain DNS MX records for live mail servers, and normalizes internationalized domain names (IDNA).
 - **Best for:** Instant point-of-capture validation on web forms and pre-import cleaning to protect domain sender reputation.
 
-### 7. [J535D165/recordlinkage](https://github.com/J535D165/recordlinkage) [![GitHub stars](https://img.shields.io/github/stars/J535D165/recordlinkage?style=social&color=white)](https://github.com/J535D165/recordlinkage/stargazers) 🔗
+### 7. [J535D165/recordlinkage](https://github.com/J535D165/recordlinkage) [![GitHub_Stars](https://img.shields.io/github/stars/J535D165/recordlinkage?style=social&color=white)](https://github.com/J535D165/recordlinkage/stargazers) 🔗
 - **Category:** Record Linkage & Data Matching Toolkit (BSD-3-Clause)
 - **Description:** A powerful Python toolkit built on Pandas and NumPy for linking and deduplicating record sets. Includes indexing techniques (blocking, sorted neighborhood), comparison algorithms (Jaro-Winkler, Levenshtein), and classification algorithms.
 - **Best for:** Data analysts needing fine-grained programmatic control over CRM merge rules in Python/Pandas workflows.
 
-### 8. [google/libaddressinput](https://github.com/google/libaddressinput) [![GitHub stars](https://img.shields.io/github/stars/google/libaddressinput?style=social&color=white)](https://github.com/google/libaddressinput/stargazers) 🌍
+### 8. [google/libaddressinput](https://github.com/google/libaddressinput) [![GitHub_Stars](https://img.shields.io/github/stars/google/libaddressinput?style=social&color=white)](https://github.com/google/libaddressinput/stargazers) 🌍
 - **Category:** Postal Address Schema & Country Rule Verification (Apache-2.0)
 - **Description:** Google's library handling postal address forms and validation metadata across 200+ territories. Contains authoritative rules for required fields, postal code formats, and administrative area hierarchies.
 - **Best for:** Standardizing UI address input fields and validating international postal formats against official postal schemas.
 
-### 9. [TomGranot/hubspot-admin-skills](https://github.com/TomGranot/hubspot-admin-skills) [![GitHub stars](https://img.shields.io/github/stars/TomGranot/hubspot-admin-skills?style=social&color=white)](https://github.com/TomGranot/hubspot-admin-skills/stargazers) 🤖
+### 9. [TomGranot/hubspot-admin-skills](https://github.com/TomGranot/hubspot-admin-skills) [![GitHub_Stars](https://img.shields.io/github/stars/TomGranot/hubspot-admin-skills?style=social&color=white)](https://github.com/TomGranot/hubspot-admin-skills/stargazers) 🤖
 - **Category:** Claude Code AI Skills for HubSpot CRM Hygiene (MIT)
 - **Description:** A suite of 32 specialized Claude Code skills and prompt workflows designed for automated HubSpot audits, orphan record reassignment, contact suppression, property cleanups, and deduplication with CSV preview safety.
 - **Best for:** RevOps engineers leveraging LLMs to audit and remediate dirty HubSpot portals with safe preview-before-apply steps.
 
-### 10. [Koder-Kartik/ai-crm-sanitizer](https://github.com/Koder-Kartik/ai-crm-sanitizer) [![GitHub stars](https://img.shields.io/github/stars/Koder-Kartik/ai-crm-sanitizer?style=social&color=white)](https://github.com/Koder-Kartik/ai-crm-sanitizer/stargazers) 🧪
+### 10. [Koder-Kartik/ai-crm-sanitizer](https://github.com/Koder-Kartik/ai-crm-sanitizer) [![GitHub_Stars](https://img.shields.io/github/stars/Koder-Kartik/ai-crm-sanitizer?style=social&color=white)](https://github.com/Koder-Kartik/ai-crm-sanitizer/stargazers) 🧪
 - **Category:** OpenEnv Benchmark for AI Agent CRM Cleaning (MIT)
 - **Description:** An OpenEnv-compliant evaluation benchmark for testing AI cleaning agent logic. Procedurally generates dirty CRM records with phone mismatches, duplicate imports, city spelling variations, and negative numeric anomalies to benchmark agent reasoning.
 - **Best for:** AI developers training or evaluating autonomous agents before letting them execute destructive mutations on real CRM databases.
@@ -167,7 +167,7 @@ Thank you to all contributors and community members building open, transparent d
 1. Fork this repository 🍴
 2. Create your feature branch (`git checkout -b feature/add-new-tool`)
 3. Add or update entries following the table format (include revenue/valuation, starting tier prices, and explicit free tier/trial limits)
-4. For open-source tools, include the repository link, GitHub star badge (`style=social&color=white`), and appropriate categorization
+4. For open-source tools, include the repository link, GitHub Stars_Badge (`style=social&color=white`), and appropriate categorization
 5. Submit a pull request with a concise overview of your additions 🚀
 
 ---
