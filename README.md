@@ -1,50 +1,57 @@
-# Awesome-CRM-Data-Hygiene-Validation
+# Awesome CRM Data Hygiene & Validation 🧼📊
 
-# Awesome-CRM-Data-Hygiene-Validation
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome CRM Data Hygiene &amp; Validation Banner" width="100%" />
+</p>
 
-**Top CRM Data Hygiene Validation (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CRM-Data-Hygiene-Validation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+## 🌟 Overview & SEO Meta Summary
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+Welcome to the definitive directory for **CRM Data Hygiene, Record Linkage, Deduplication, and Master Data Validation**. Clean, trusted CRM data is the foundation of high-performing Revenue Operations (RevOps), outbound deliverability, and autonomous AI agents. 
 
-*Focused on Address Validation, Email Verification, Deduplication, Field Standardization & Self-Hosted Data Quality*
+This curated collection indexes top **commercial enterprise SaaS platforms** alongside **battle-tested open-source libraries** designed for:
+- 📬 **Postal Address Standardization & Normalization** (USPS CASS, DPV, international parsing)
+- 📧 **Real-Time Email Verification & Deliverability Testing** (Syntax, MX records, disposable filters)
+- 📞 **E.164 Phone Formatting & Carrier Validation**
+- 🔄 **Probabilistic Record Linkage & Fuzzy Matching** (Deduplication at scale)
+- 🛡️ **Automated Data Quality Testing & Pipeline Assertions**
 
-**Last updated: November 2026**
+**Last updated: November 2026** 📅
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **CRM Data Hygiene & Validation**. These tools enable revenue operations and data teams to validate contact data, deduplicate records, standardize fields, and maintain CRM accuracy—from fully managed enterprise platforms with global address databases and real-time enrichment to self-hosted validation libraries and CLI tools that give teams control without per-record fees.
+- [Sector Overview & Market Dynamics 📈](#sector-overview--market-dynamics-)
+- [SaaS / Hosted Data Hygiene Platforms ☁️](#saas--hosted-data-hygiene-platforms-️)
+- [Open-Source GitHub Projects & Primitives 🛠️](#open-source-github-projects--primitives-️)
+- [Architecting a Self-Hosted CRM Hygiene Pipeline 🏗️](#architecting-a-self-hosted-crm-hygiene-pipeline-️)
+- [Saar History 📊](#saar-history-)
+- [Support & Community ☕](#support--community-)
+- [How to Contribute 🤝](#how-to-contribute-)
+- [Disclaimer & Best Practices ⚠️](#disclaimer--best-practices-️)
 
+---
 
+## Sector Overview & Market Dynamics 📈
 
-**Examples** include Insycle, DemandTools, RingLead, ZoomInfo Enrich, Clearbit (Breeze Intelligence), Openprise, Syncari, Experian Data Quality, Melissa Clean, and HubSpot Data Quality tools (the category leaders in commercial space).
+The global data quality and CRM data hygiene tools market is estimated at **$3.3B to $3.9B in 2026** (scaling from ~$2.6B in 2024 at an ~18% CAGR), driven by enterprise demand for clean, deduplicated data for LLMs and autonomous sales agents. The sector exhibits a hybrid market structure: **moderately concentrated at the enterprise MDM tier** (dominated by entrenched enterprise providers like Experian, Informatica, and HubSpot), but **highly fragmented at the CRM point-solution and contact hygiene layer**, where dozens of niche SaaS tools, validation APIs, and AppExchange plugins compete without a winner-take-all monopoly.
 
+---
 
+## SaaS / Hosted Data Hygiene Platforms ☁️
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted CRM validation, deduplication, and open data quality infrastructure. **Critical note**: True open-source CRM validation is sparse—**hubspot-crm-clean** provides CLI-based deduplication and audits for HubSpot , and **CRM Sanitizer** is an AI agent benchmark for cleaning logic rather than a production tool . For foundational validation primitives (email, phone, address), open-source libraries exist but require integration into your own pipeline. No open-source project matches Experian's global address database or Melissa's Clean Suite depth.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global data quality and CRM data hygiene tools market is estimated at **$3.3B to $3.9B in 2026** (scaling from ~$2.6B in 2024 at a ~18% CAGR), driven by enterprise demand for clean, deduplicated data for LLMs and autonomous sales agents. The sector exhibits a hybrid market structure: **moderately concentrated at the enterprise MDM tier** (dominated by entrenched enterprise providers like Experian, Informatica, and HubSpot), but **highly fragmented at the CRM point-solution and contact hygiene layer**, where dozens of niche SaaS tools, validation APIs, and AppExchange plugins compete without a winner-take-all monopoly.
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Size (Revenue / Valuation) | Pricing | Free Tier / Trial Limits | Key Capabilities & Highlights |
+| Platform | Company Size (Revenue / Valuation) 🏢 | Pricing 💰 | Free Tier / Trial Limits 🎁 | Key Capabilities & Highlights 🚀 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Experian Data Quality](https://www.experian.com/)** | **~$7.52B Rev (FY25) / ~$43B–$46B Market Cap** | Aperture Data Studio license starts at **£12,500/year** (~$16,000/yr on G-Cloud); enterprise deployments **$72,000–$110,000+/year**; validation APIs consume 1 credit/lookup | **14-day free trial** with ~500–2,000 validation credits (address/email/phone); no permanent free tier | Enterprise data profiling, Aperture Data Studio, global address validation engine, phone/email validation APIs |
 | **[HubSpot Data Quality Tools](https://www.hubspot.com/)** | **~$3.13B Rev (FY25) / ~$21B Market Cap** | Data Hub: **Free ($0)**; Starter starts at **$7/seat/month** (500 credits); Professional at **$720/month** (5,000 credits); Enterprise at **$2,000/month** (10,000 credits) | **Free forever plan available** (Basic Data Hub features with limited deduplication view; Starter+ paid seats get complimentary basic Breeze Intelligence enrichment) | Native CRM data management, automatic deduplication formatting, AI-driven data cleansing, and Breeze Intelligence enrichment |
@@ -57,92 +64,123 @@ The global data quality and CRM data hygiene tools market is estimated at **$3.3
 | **[Syncari](https://syncari.com/)** | **~$60M Implied Valuation** ($26.8M funding) / ~$1.8M–$7.1M Est. ARR | Entry-level packages start at **$995/month** (billed annually; 'One Plan' model scaled by volume of unified records) | **14-day free trial** (Test Drive account capped at 10,000 unified records; full feature exploration including automated syncs; no permanent free tier) | Agentic Master Data Management (MDM), multidirectional multi-system sync, automated deduplication, and cross-system data unification |
 | **[Insycle](https://www.insycle.com/)** | **~$435K Est. ARR** (Bootstrapped / Private) | Starter starts at **$1.00 per 1,000 records/month** (~$100/mo base, billed annually, 1 module); Growth starts at **$1.50/1K records/mo** (2 modules); Professional starts at **$2.00/1K records/mo** (full suite); unlimited users | **14-day free trial** (valid for databases up to 500,000 records, no credit card required, includes health assessment; no permanent free tier) | Record-count based CRM deduplication, automated normalization rules, bulk data association, and custom deduplication formulas across HubSpot/Salesforce |
 
-## Open-Source GitHub Projects
+---
 
+## Open-Source GitHub Projects & Primitives 🛠️
 
+Sorted in descending order of GitHub community stars. Each project provides open infrastructure or foundational algorithms for self-hosted CRM data cleaning.
 
-- **[hubspot-crm-clean](https://pypi.org/project/hubspot-crm-clean/)**
+### 1. [google/libphonenumber](https://github.com/google/libphonenumber) [![GitHub stars](https://img.shields.io/github/stars/google/libphonenumber?style=social&color=white)](https://github.com/google/libphonenumber/stargazers) 📞
+- **Category:** Phone Parsing & International E.164 Formatting (Apache-2.0)
+- **Description:** Google's gold-standard library for parsing, formatting, and validating international phone numbers across 200+ countries. Essential in CRM pipelines to standardize inconsistent lead entries into globally routable E.164 format.
+- **Best for:** Eliminating malformed phone numbers before outbound calling or SMS sync.
 
-  **CLI tool for HubSpot CRM hygiene** (PyPI package) — **the most production-oriented open-source HubSpot validation and deduplication tool** found in this research . **Features**: **Fetch** contacts (core or all custom properties); **Audit** for duplicates (name similarity threshold, default 85), incomplete contacts (missing required fields), and stale contacts (no recent activity) . **Fix duplicates** with preview mode (writes nothing), interactive selection (`-i`), or apply (`--apply` to actually merge); **Fix stale** with preview or archive . Supports **offline mode** (`--from-file`), **CI integration** (`--strict` exits 1 on findings), YAML config, and CSV/JSON export . **Tech stack**: Python (PyPI). **Deploy**: `pip install hubspot-crm-clean`; run commands from project root . **Trade-off**: **HubSpot-only**—no Salesforce or other CRM support. Duplicate detection is name-similarity based, not multi-field matching. **Best for**: HubSpot teams wanting a scriptable, CI-integrated CLI for deduplication and staleness audits—without a SaaS subscription.
+### 2. [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers) 🛡️
+- **Category:** Data Validation & Pipeline Profiling (Apache-2.0)
+- **Description:** The industry-leading open-source framework for data assertions, continuous pipeline validation, and automated documentation. Allows data teams to define strict schemas (e.g., non-null contact fields, valid stage transitions, uniqueness constraints) on CRM tables.
+- **Best for:** Automating CI/CD checks and warehouse data quality gates on Salesforce and HubSpot data syncs.
 
+### 3. [openvenues/libpostal](https://github.com/openvenues/libpostal) [![GitHub stars](https://img.shields.io/github/stars/openvenues/libpostal?style=social&color=white)](https://github.com/openvenues/libpostal/stargazers) 📍
+- **Category:** International Street Address Parsing & Normalization (MIT)
+- **Description:** C/Python library powered by statistical NLP trained on OpenStreetMap data worldwide. Parses unstructured street address strings into structured components (house number, road, city, postal code) across every country.
+- **Best for:** Normalizing global CRM address fields to enable accurate multi-field contact matching and deduplication.
 
+### 4. [dedupeio/dedupe](https://github.com/dedupeio/dedupe) [![GitHub stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers) 🔍
+- **Category:** Machine Learning Deduplication & Record Linkage (Apache-2.0)
+- **Description:** Python library that uses active learning machine learning algorithms to perform deduplication and entity resolution on messy customer databases. Learns custom blocking rules and similarity thresholds from user feedback.
+- **Best for:** Identifying duplicate accounts and contacts with conflicting or partial fields without writing hundreds of brittle regex rules.
 
-- **[CRM Sanitizer](https://huggingface.co/spaces/KoderKartik/crm-sanitizer)**
+### 5. [moj-analytical-services/splink](https://github.com/moj-analytical-services/splink) [![GitHub stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers) ⚡
+- **Category:** Big Data Probabilistic Record Linkage (MIT)
+- **Description:** Fast, scalable probabilistic record linkage at scale based on the Fellegi-Sunter model. Native support for DuckDB, Apache Spark, and AWS Athena enables deduplicating multi-million row CRM datasets in seconds.
+- **Best for:** High-volume deduplication and enterprise master customer index linking directly inside data lakes and warehouses.
 
-  **OpenEnv benchmark for AI agent CRM cleaning** (Hugging Face Space, MIT) — **the most rigorous open-source benchmark for evaluating cleaning logic** . **Features**: **Procedurally generated dirty CRM datasets**—every `reset()` produces fresh data with different issues (phone format inconsistencies, duplicate imports, date conventions, city name variations, negative loyalty points) . **8 cleaning actions** (fill_missing, remove_duplicate, standardize_format, fix_value, get_column_stats, bulk_fix_column, flag_ambiguous, submit) . **Tiered difficulty**—hints decrease as tasks get harder; hard task includes genuinely ambiguous cases . **Permanent row IDs** (`uid`) prevent index-shifting bugs . **Schema**: name, email, phone, company, city, join_date, loyalty_points . **Tech stack**: Python (OpenEnv-compliant). **Deploy**: Hugging Face Space (interactive) . **Trade-off**: **Benchmark, not a production tool**—it evaluates AI agents' cleaning reasoning, not execute cleaning on real CRMs. **Best for**: developers building AI cleaning agents wanting a rigorous evaluation environment—or teams wanting to understand what "good" CRM cleaning looks like.
+### 6. [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) [![GitHub stars](https://img.shields.io/github/stars/JoshData/python-email-validator?style=social&color=white)](https://github.com/JoshData/python-email-validator/stargazers) 📧
+- **Category:** Email Syntax, Deliverability & MX Verification (CC0)
+- **Description:** A robust Python library that validates email addresses against RFC 5322 syntax specifications, checks domain DNS MX records for live mail servers, and normalizes internationalized domain names (IDNA).
+- **Best for:** Instant point-of-capture validation on web forms and pre-import cleaning to protect domain sender reputation.
 
+### 7. [J535D165/recordlinkage](https://github.com/J535D165/recordlinkage) [![GitHub stars](https://img.shields.io/github/stars/J535D165/recordlinkage?style=social&color=white)](https://github.com/J535D165/recordlinkage/stargazers) 🔗
+- **Category:** Record Linkage & Data Matching Toolkit (BSD-3-Clause)
+- **Description:** A powerful Python toolkit built on Pandas and NumPy for linking and deduplicating record sets. Includes indexing techniques (blocking, sorted neighborhood), comparison algorithms (Jaro-Winkler, Levenshtein), and classification algorithms.
+- **Best for:** Data analysts needing fine-grained programmatic control over CRM merge rules in Python/Pandas workflows.
 
+### 8. [google/libaddressinput](https://github.com/google/libaddressinput) [![GitHub stars](https://img.shields.io/github/stars/google/libaddressinput?style=social&color=white)](https://github.com/google/libaddressinput/stargazers) 🌍
+- **Category:** Postal Address Schema & Country Rule Verification (Apache-2.0)
+- **Description:** Google's library handling postal address forms and validation metadata across 200+ territories. Contains authoritative rules for required fields, postal code formats, and administrative area hierarchies.
+- **Best for:** Standardizing UI address input fields and validating international postal formats against official postal schemas.
 
-- **[HubSpot CRM Cleanup Skills (Claude Code)](https://github.com/)** *(repository shared via LinkedIn post)*
+### 9. [TomGranot/hubspot-admin-skills](https://github.com/TomGranot/hubspot-admin-skills) [![GitHub stars](https://img.shields.io/github/stars/TomGranot/hubspot-admin-skills?style=social&color=white)](https://github.com/TomGranot/hubspot-admin-skills/stargazers) 🤖
+- **Category:** Claude Code AI Skills for HubSpot CRM Hygiene (MIT)
+- **Description:** A suite of 32 specialized Claude Code skills and prompt workflows designed for automated HubSpot audits, orphan record reassignment, contact suppression, property cleanups, and deduplication with CSV preview safety.
+- **Best for:** RevOps engineers leveraging LLMs to audit and remediate dirty HubSpot portals with safe preview-before-apply steps.
 
-  **32 Claude Code skills for HubSpot CRM hygiene** (free GitHub repo) — **the most comprehensive open-source CRM maintenance toolkit**, covering audit, cleaning, enrichment, and ongoing maintenance . **Features**: **Audit & Planning** (hubspot-audit scans and scores issues; implementation-roadmap creates fix plan); **Database Hygiene** (delete-no-email-contacts, suppress-hard-bouncers, dedupe-companies, reassign-orphan-records, suppress-ghost-contacts, suppress-unsubscribers); **Data Enrichment** (populate-company-names, populate-industries, normalize-geo-values, assign-unowned-contacts, repair-lifecycle-stages); **Segmentation & Scoring**; **Automation Workflows**; **Ongoing Maintenance** (weekly/quarterly reviews, property/lead-owner/pipeline cleanup) . **Workflow**: Plan → Before (CSV preview) → Execute → After (QA in HubSpot) . **Deploy**: Claude Code skills (requires Claude Code environment). **Trade-off**: **Claude Code dependency**—not a standalone CLI or web app. Requires Claude Code subscription and API access. **Best for**: HubSpot teams already using Claude Code wanting a comprehensive, repeatable cleanup workflow—especially those who want CSV previews before changes.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **libphonenumber** (Google) — Phone number parsing, formatting, and validation library (Apache-2.0). **Note**: Validation primitive only—no CRM integration. **Best for**: developers needing phone validation logic within a custom pipeline.
-
-- **email-validator** (Python) — Email syntax and deliverability validation (CC0). **Note**: Syntax validation is not the same as deliverability verification. **Best for**: basic email format validation in custom scripts.
-
-- **No mature open-source Salesforce deduplication tool exists.** DemandTools and Cloudingo dominate; open-source alternatives are absent. Teams on Salesforce must use commercial tools or build custom scripts against the Salesforce API.
-
-
-
-**Frameworks for building custom systems**: Combine **hubspot-crm-clean** for CLI-based deduplication and audits with **HubSpot CRM Cleanup Skills** for comprehensive Claude Code workflows and **CRM Sanitizer** as a benchmark for evaluating cleaning agent quality—creating a HubSpot hygiene stack. **Salesforce teams have no comparable open-source option**; commercial tools or custom API scripts are required.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CRM data validation tools handling customer records must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls. **Merging and deleting records is destructive and irreversible**—always preview before applying.
-
-- **The "enterprise platform" vs. "validation API" vs. "CLI tool" vs. "AI benchmark" distinction is critical.** **Insycle, DemandTools, ZoomInfo Enrich, Openprise, Syncari, Experian, and Melissa** are **commercial platforms**—they provide deduplication, validation, enrichment, and support . **Clearbit/Breeze** is now **HubSpot-integrated enrichment**—no standalone API . **hubspot-crm-clean** is a **CLI tool**—scriptable, CI-friendly, HubSpot-only . **HubSpot CRM Cleanup Skills** are **Claude Code skills**—comprehensive but Claude-dependent . **CRM Sanitizer** is an **AI agent benchmark**—it evaluates cleaning capabilities, not execute cleaning on real data . **No open-source project matches Experian's global address database or Melissa's Clean Suite depth.**
-
-- **Clearbit no longer exists as a standalone product.** It is now **Breeze Intelligence inside HubSpot**—HubSpot-only, no phone reveals, credit-based for advanced features . **Do not evaluate Clearbit for non-HubSpot CRMs.**
-
-- **DemandTools has no free trial** per Capterra . **Insycle offers a 14-day trial with up to 500 records and no credit card** . **Openprise has no free tier**—Professional starts at $35K annually .
-
-- **RingLead's product identity is unclear.** Search results surface **RingLeadAI**, a voice/email outbound platform with published tiered pricing —this appears distinct from the traditional RingLead data orchestration product. **Verify which product you are evaluating before engaging sales.**
-
-- **Experian's US address validation is overpriced** relative to Smarty and Melissa (30–50% lower) . **For US-only address validation, evaluate competitors first.**
-
-- **Melissa offers up to 1,000 free credits/month** for CRM cleaning—the most generous free tier in this category . **Credits reset after one year of inactivity.**
-
-- **Pricing opacity varies.** Insycle, DemandTools, RingLeadAI, ZoomInfo, HubSpot Data Hub, and Melissa publish tiered or credit pricing. Openprise publishes $35K Professional. Experian, Syncari, and traditional RingLead require sales contact. **Validate with direct vendor conversations against your record count and CRM platform.**
-
-- Self-hosted open-source solutions require API credentials for your CRM, careful testing of merge/delete logic, and ongoing maintenance. **CRM data is business-critical**—ensure your deployment includes preview/rollback capabilities and meets your organization's data governance requirements before applying destructive changes.
-
-
+### 10. [Koder-Kartik/ai-crm-sanitizer](https://github.com/Koder-Kartik/ai-crm-sanitizer) [![GitHub stars](https://img.shields.io/github/stars/Koder-Kartik/ai-crm-sanitizer?style=social&color=white)](https://github.com/Koder-Kartik/ai-crm-sanitizer/stargazers) 🧪
+- **Category:** OpenEnv Benchmark for AI Agent CRM Cleaning (MIT)
+- **Description:** An OpenEnv-compliant evaluation benchmark for testing AI cleaning agent logic. Procedurally generates dirty CRM records with phone mismatches, duplicate imports, city spelling variations, and negative numeric anomalies to benchmark agent reasoning.
+- **Best for:** AI developers training or evaluating autonomous agents before letting them execute destructive mutations on real CRM databases.
 
 ---
 
+## Architecting a Self-Hosted CRM Hygiene Pipeline 🏗️
 
+```
+┌─────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐
+│  Messy Ingest   │ ────> │ Validation Primitives│ ────> │ Linkage & Dedupe     │
+│ (Leads / Forms) │       │ (libpostal, libphone)│       │ (Splink / Dedupe)    │
+└─────────────────┘       └──────────────────────┘       └──────────────────────┘
+                                                                     │
+                                                                     ▼
+┌─────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐
+│ Clean CRM Core  │ <──── │ QA & Audit Assertions│ <──── │ Merge & Resolve      │
+│ (Salesforce/Hub)│       │ (Great Expectations) │       │ (Surviving Records)  │
+└─────────────────┘       └──────────────────────┘       └──────────────────────┘
+```
 
-**Made for RevOps teams, CRM administrators, and organizations building transparent data hygiene solutions.**
+1. **Ingest Normalization:** Parse raw inputs through `openvenues/libpostal` (addresses) and `google/libphonenumber` (phones) before inserting records into the staging database.
+2. **Deliverability Gate:** Verify email domains via `JoshData/python-email-validator` to eliminate throwaway or defunct mailboxes.
+3. **Probabilistic Deduplication:** Run `moj-analytical-services/splink` or `dedupeio/dedupe` across first name, last name, normalized company name, and address to score duplicate likelihood.
+4. **Data Contract Testing:** Assert schema invariants using `great-expectations/great_expectations` to prevent pipeline regressions from corrupting production records.
 
-Let's make CRM Data Hygiene & Validation more open, data-driven, and record-accurate.
+---
+
+## Saar History 📊
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-CRM-Data-Hygiene-Validation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-CRM-Data-Hygiene-Validation&type=date&legend=top-left)
+
+---
+
+## Support & Community ☕
+
+If you find this curated collection useful for your RevOps stack, data engineering pipelines, or open-source research, please consider supporting the project:
+
+- 🌟 **Star the repository** to boost discoverability on GitHub!
+- 🍴 **Fork the repository** and contribute your own tools, benchmarks, and guides.
+- 📣 **Share with colleagues** in RevOps, Data Engineering, and SalesOps communities.
+- ☕ **Sponsor the maintainer** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to help support ongoing curation and maintenance.
+
+Thank you to all contributors and community members building open, transparent data systems! ❤️
+
+---
+
+## How to Contribute 🤝
+
+1. Fork this repository 🍴
+2. Create your feature branch (`git checkout -b feature/add-new-tool`)
+3. Add or update entries following the table format (include revenue/valuation, starting tier prices, and explicit free tier/trial limits)
+4. For open-source tools, include the repository link, GitHub star badge (`style=social&color=white`), and appropriate categorization
+5. Submit a pull request with a concise overview of your additions 🚀
+
+---
+
+## Disclaimer & Best Practices ⚠️
+
+- This is an independent, **community-curated directory** — listings do not constitute commercial endorsement.
+- **Destructive Operation Warning:** Merging and purging CRM contacts and accounts is permanent. Always export a snapshot and preview diffs before executing mass deduplications.
+- **Regulatory Compliance:** Contact and address validation systems handling customer personal records must adhere to applicable privacy legislation (GDPR, CCPA/CPRA, HIPAA).
+- Commercial pricing and credit allotments are subject to vendor adjustments; always verify directly with vendor representatives during procurement.
+
+---
+
+<p align="center">
+  <b>Built for RevOps teams, CRM admins, and Data Engineers dedicated to clean, reliable data. 🧼✨</b>
+</p>
